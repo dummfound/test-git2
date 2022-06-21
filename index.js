@@ -1,23 +1,22 @@
-const str = 'My name is Andrey';
-const newStr = str.toLocaleLowerCase().slice(0,1) + str.toLocaleUpperCase().slice(1, str.length);
-console.log(newStr)
-console.log(newStr)
-console.log(newStr)
 
 const arrayForContainer = [
     {
-        id: Date.now(),
-        text : 'none'
+        id: 1655814912898,
+        text : 'Apple'
     },
     {
-        id: Date.now(),
-        text : 'none'
+        id: 1655814912899,
+        text : 'Orange'
     },
     {
-        id: Date.now(),
-        text : 'none'
+        id: 1655814912900,
+        text : 'Banana'
     },
 ];
+
+const arrayEdit = arrayForContainer.find((item) => {
+    return item.id > 10000000
+});
 
 const addContainerOnMaster = (id, text) => {
 

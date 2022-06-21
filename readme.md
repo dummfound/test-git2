@@ -10,3 +10,4 @@ git remote -v - просмотр репозитория
 git branch - просмотре ветки
 git checkout - переход на ветку
 git pull [rep_link] [branch_name] - забирает изменения с github на local
+git branch -d [имя_ветки]
