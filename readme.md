@@ -8,5 +8,4 @@ git log - подробная инфа коммита
 git push [rep_link] [branch_name]
 git remote -v - просмотр репозитория
 git branch - просмотре ветки
-git branch [имя_ветки]
-git checkout [имя_ветки] - переход на ветку
+git pull [rep_link] [branch_name] - забирает изменения с github на local
